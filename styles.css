@@ -34,7 +34,7 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     background: var(--darkblue);
     padding: 0 9vw;
 }
