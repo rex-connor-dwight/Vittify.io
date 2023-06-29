@@ -17,6 +17,7 @@
 
 body{
     background: var(--darkblue);
+    height: 100vh;
 }
 
 a{
