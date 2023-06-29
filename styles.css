@@ -99,6 +99,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 5vh 9vw;
+    height: auto;
 }
 
 .logo{
@@ -116,7 +117,7 @@ header{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 100%;
+    height: 100vh;
     padding: 0 9vw;
 }
 
