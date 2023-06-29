@@ -99,7 +99,6 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 5vh 9vw;
-    background: var(--xogray);
 }
 
 .logo{
