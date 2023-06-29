@@ -92,6 +92,7 @@ html{
 
 
 header{
+    position: fixed;
     top:0; left:0;
     width: 82%;
     background: var(--martel);
@@ -99,6 +100,8 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 5vh 9vw;
+    background: var(--xogray);
+    height: 1vh;
 }
 
 .logo{
@@ -116,7 +119,7 @@ header{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: auto;
+    height: 99vh;
     padding: 0 9vw;
 }
 
