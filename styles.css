@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root{
+    --darkblue: #000001;
+    --lightgreen: #43ea7e;
+    --gray: #0e0f13;
+    --xogray: #1f212c;
+    --acewhite: #ecf2f5;
+    --gwhite: #f5f7fa;
+    --gwhite2: #c3cfe2;
+    --gradient: linear-gradient(0deg, var(--gwhite), var(--gwhite2));
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background: var(--darkblue);
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    color: var(--acewhite);
+    font-family: Arial, Helvetica, sans-serif, Poppins;
+}
+
+.onboarding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: var(--darkblue);
+    padding: 0 9vw;
+}
+
+.onboarding img{
+    max-width: 60vw;
+    height: 60vw;
+}
+
+.onboarding h1{
+    font-size: 6vw;
+    margin-top: 13vh;
+    text-align: center;
+}
+
+.onboarding h1 span{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 4.8vw;
+}
+
+.onboarding p{
+    font-size: 2vw;
+    padding: 0 13vw;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.onboarding button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+    background: var(--acewhite);
+    width: 80vw;
+    border-radius: 2rem;
+    font-size: 4.5vw;
+    font-weight: 500;
+    padding-right: 18vw;
+    padding-left: 2vw;
+    padding-top: 1vh ;
+    padding-bottom: 1vh;
+    margin-top: 7vh;
+}
+
+.onboarding button img{
+    max-width: 10vw;
+    height: 10vw;
+}
+
+
+/* Home Styles*/
+
+
+
+header{
+    position: fixed;
+    top:0; left:0;
+    width: 82%;
+    background: var(--martel);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 9vw;
+}
+
+.logo{
+    max-width: 15vw;
+    height: auto;
+}
+
+.nav{
+    max-width: 4vw;
+    height: 4vw;
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 9vw;
+}
+
+.Home h1{
+    font-size: 11vw;
+    font-weight: 900;
+    color: var(--gradient);
+    margin-top: 12vh;
+}
+
+.Home h1 span{
+    color: var(--lightgreen);
+}
+
+.Home p{
+    font-size: 3vw;
+    text-align: justify;
+    margin: 4vh 0;
+}
+
+.dot{
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+    background: var(--gray);
+    border-radius: 5rem;
+    padding: 1.5vh 2vh;
+    border: var(--gwhite) .1rem solid;
+}
+
+.circle{
+    height: 1vh;
+    width: 2vw;
+    background: var(--lightgreen);
+    border-radius: 5rem;
+    margin-right: 5vw;
+}
+
+.dot h3{
+    font-size: 1.3vh;
+    font-weight: 200;
+    padding-right: 1rem;
+}
+
+.card{
+    max-width: 100%;
+    height: auto;
+    margin-top: 3vh;
+}
+
+.cta{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 87%;
+    background: var(--gray);
+    margin-top: 3vh;
+    padding: 2vh 3vh;
+    border-radius: .4rem;
+}
+
+.cta h2{
+    color: var(--lightgreen);
+    text-transform: uppercase;
+    font-size: 1.4vh;
+}
+
+.cta h3{
+    font-weight: 2;
+    font-size: 1.3vh;
+}
