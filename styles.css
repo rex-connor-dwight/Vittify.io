@@ -94,12 +94,11 @@ header{
     position: fixed;
     top:0; left:0;
     width: 82%;
-    background: var(--martel);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5vh 9vw;
-    height: auto;
+    padding: 4vh 9vw;
+    background-color: var(--darkblue);
 }
 
 .logo{
@@ -108,24 +107,24 @@ header{
 }
 
 .nav{
-    max-width: 4vw;
-    height: 4vw;
+    max-width: 6vw;
+    height: 6vw;
 }
 
 .Home{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    position: fixed;
     height: 100vh;
     padding: 0 9vw;
+    margin-top: 10vh;
 }
 
 .Home h1{
     font-size: 11vw;
     font-weight: 900;
     color: var(--gradient);
-    margin-top: 12vh;
+    margin-top: 3vh;
 }
 
 .Home h1 span{
@@ -135,17 +134,18 @@ header{
 .Home p{
     font-size: 3vw;
     text-align: justify;
-    margin: 4vh 0;
+    margin: 3vh 0;
 }
 
 .dot{
     display: flex;
     align-items: center;
-    margin: 2vh 0;
+    margin: 1.6vh 0;
     background: var(--gray);
     border-radius: 5rem;
     padding: 1.5vh 2vh;
     border: var(--gwhite) .1rem solid;
+    width: 55vw;
 }
 
 .circle{
@@ -162,21 +162,34 @@ header{
     padding-right: 1rem;
 }
 
+.cardtittle{
+    font-size: 3vw;
+    font-weight: 150;
+    margin-top: 2vh;
+}
+
+.cardtittle span{
+    font-weight: 900;
+}
+
 .card{
-    max-width: 100%;
+    max-width: 82vw;
     height: auto;
-    margin-top: 3vh;
+    margin-top: 4vh;
 }
 
 .cta{
     display: flex;
     align-self: center;
     justify-content: space-between;
-    width: 87%;
+    width: 72vw;
     background: var(--gray);
-    margin-top: 3vh;
+    margin-top: 2vh;
     padding: 2vh 3vh;
     border-radius: .4rem;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 4vh;
 }
 
 .cta h2{
