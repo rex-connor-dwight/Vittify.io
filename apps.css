@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root{
+    --darkblue: #000001;
+    --lightgreen: #43ea7e;
+    --gray: #0e0f13;
+    --xogray: #1f212c;
+    --acewhite: #ecf2f5;
+    --gwhite: #f5f7fa;
+    --gwhite2: #c3cfe2;
+    --apps001: #060608;
+    --apps002: #121318;
+    --apps003: #3a3e4c;
+    --apps004: #1f212c;
+    --apps005: #1f2c2a;
+    --apps006: #bcc0d0;
+    --apps007: #3a3e4c;
+    --appsgradient: linear-gradient(90deg, var(--apps004), var(--apps005));
+    --gradient: linear-gradient(0deg, var(--gwhite), var(--gwhite2));
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background: var(--darkblue);
+    padding: 4vh 9vw;
+}
+
+a{
+    text-decoration: none;
+    color: var(--acewhite);
+}
+
+html{
+    color: var(--acewhite);
+    font-family: Arial, Helvetica, sans-serif, Poppins;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 10vw;
+    height: auto;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 80vh;
+    margin-top: 4.5vh;
+}
+
+.appstittle{
+    font-size: 6.5vw;
+    font-weight: 900;
+    color: var(--lightgreen);
+}
+
+.appstittle span{
+    color: var(--acewhite);
+}
+
+.featured{
+    background: var(--apps001);
+    border: var(--apps002) .1rem solid;
+    border-radius: .3rem;
+    padding: 1.3vh 0;
+    margin-top: 2vh;
+}
+
+.featuredtxt{
+    font-size: 1.7vw;
+    font-weight: 100;
+    padding-left: 5vw;
+    font-style: italic;
+    color: var(--apps003);
+}
+
+.featuredcon{
+    margin: -1vh 0;
+}
+
+.featuredbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--appsgradient);
+    border-radius: .6rem;
+    margin: 3.5vh 0;
+    padding: 3vh 5vw;
+}
+
+.boxright{
+    display: flex;
+    align-items: center;
+}
+
+.featuredimg{
+    width: 9vw;
+    height: 9vw;
+}
+
+.boxtxt{
+    padding-left: 3vw;
+}
+
+.boxtxt h1{
+    font-size: 3.8vw;
+}
+
+.boxtxt p{
+    font-size: 1.3vw;
+    padding-top: .5vh;
+}
+
+.boxleft button{
+    border: 0;
+    background: var(--darkblue);
+    border-radius: 1rem;
+    padding: .8vh 2vh;
+    font-size: 1.1vh;
+    font-weight: 600;
+}
+
+.appFooter{
+    background: var(--apps006);
+    color: var(--apps007);
+    padding: 5vh 4vh 4vh 4vh;
+    border-radius: .6rem;
+    margin-top: 2.5vh;
+}
+
+.appFooter h1{
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+.appFooter h1 span{
+    font-weight: 900;
+}
+
+.appFooter p{
+    font-size: 2.5vw;
+    text-align: justify;
+    padding: 2vh 0;
+}
+
+.appFooter button{
+    border: 0;
+    align-items: center;
+    width: 100%;
+    background: var(--gray);
+    color: var(--acewhite);
+    border-radius: .3rem;
+    padding: 1.3vh 0;
+    margin-top: 2vh;
+    font-weight: 700;
+    font-size: 2.4vw;
+}
